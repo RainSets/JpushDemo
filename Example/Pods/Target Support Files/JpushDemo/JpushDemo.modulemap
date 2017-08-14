@@ -1,0 +1,6 @@
+framework module JpushDemo {
+  umbrella header "JpushDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
