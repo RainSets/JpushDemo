@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JpushDemo_Example' do
+  pod 'JpushDemo', :path => '../'
+
+  target 'JpushDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
